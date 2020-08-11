@@ -24,8 +24,8 @@
             //これがないとSpotifyにユーザ認証してもらえない
             //アクセストークンの取得
             $session = new SpotifyWebAPI\Session(
-                'c243f92dab1f4640ab7672fed7049707',
-                'e83e4a9290eb43a19ee972ef46a88e56'
+                'XXXXXXX',
+                'XXXXXXX'
             );
             $api = new SpotifyWebAPI\SpotifyWebAPI();
             $session->requestCredentialsToken();
